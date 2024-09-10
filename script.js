@@ -92,6 +92,7 @@ document.addEventListener('keydown', manejarTecla);
 
 function revolverPiezas() {
     const movimientos = ['w', 'a', 's', 'd'];
+    const cantidadDeMovimientos = 100;
 
     for (let i = 0; i < cantidadDeMovimientos; i++) {
         const teclaAleatoria = movimientos[Math.floor(Math.random() * movimientos.length)];
